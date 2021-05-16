@@ -1,0 +1,98 @@
+.AddSnippetForm {
+  width: 550px;
+  height: 830px;
+  background-color: #728294;
+  color: #e6ecf5;
+  display: grid;
+  grid-template-rows: auto 150px 60px 35px 45px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.CodeDiv {
+  height: 100%;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.AddSnippetForm select {
+  width: 200px;
+  align-self: center;
+  justify-self: center;
+}
+.SelectCategory {
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.SelectCategory select {
+  font-size: 20px;
+  padding: 2px 4px;
+  border: none;
+}
+.AddSnippetForm p {
+  font-size: 20px;
+}
+.ErrorMessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ErrorMessage p {
+  color: #f59e64;
+  font-size: 20px !important;
+}
+.CodeTexarea {
+  resize: none;
+  height: 90%;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  font-size: 18px;
+}
+
+.DescriptionDiv {
+  height: 100%;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.DescriptionTexarea {
+  resize: none;
+  height: 75%;
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+  background-color: white;
+  font-size: 18px;
+}
+.ButtonDiv {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  .AddSnippetForm {
+    width: 95%;
+    height: 780px;
+    grid-template-rows: auto 150px 55px 25px 35px;
+  }
+  .CodeTexarea {
+    font-size: 15px;
+  }
+  .ErrorMessage p {
+    font-size: 17px !important;
+  }
+  .DescriptionTexarea {
+    font-size: 15px;
+  }
+  .SelectCategory select {
+    font-size: 17px;
+    padding: 1px 2px;
+  }
+}

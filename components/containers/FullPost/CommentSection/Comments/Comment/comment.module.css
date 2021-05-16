@@ -1,0 +1,75 @@
+.Comment {
+  width: 70%;
+  padding: 10px;
+  height: auto;
+  font-size: 20px;
+  display: grid;
+  border-radius: 5px;
+  background-color: #728294;
+  margin: 20px 0px;
+  word-break: break-word;
+}
+.CommentUser {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.CommentUserFirst {
+  display: flex;
+  align-items: center;
+}
+.CommentUser h3 {
+  margin-left: 15px;
+}
+.CommentContent {
+  height: auto;
+  display: table;
+}
+.CommentContent p {
+  margin-top: 10px;
+  font-size: 23px;
+}
+.User {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  font-size: 25px;
+  border: 2px dotted black;
+  cursor: pointer;
+}
+.DeleteButton {
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  padding: 4px 8px;
+  background-color: rgb(224, 58, 58);
+  color: white;
+  cursor: pointer;
+}
+
+.UserName {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-weight: 600;
+}
+.UserName p {
+  margin-left: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  line-height: 22px;
+}
+
+.UserName p:hover,
+.UserName p:active {
+  border-bottom: 2px solid black;
+}
+.UserName img {
+  width: 40px;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 900px) {
+  .Comment {
+    width: 95%;
+  }
+}

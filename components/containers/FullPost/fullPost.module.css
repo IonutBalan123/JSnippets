@@ -1,0 +1,96 @@
+.FullPost {
+  width: 100%;
+  height: 100vh;
+  background-color: #1f2430;
+  color: #dee3ea;
+  display: grid;
+  grid-template-columns: 1% 40% auto;
+  font-family: "Noto Sans KR", sans-serif;
+  overflow-x: hidden;
+}
+.PostSection {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  align-items: flex-start;
+}
+.CommentSectionContainer {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 250px 1fr;
+  background-color: #1f2430;
+}
+.UpperContainer {
+  height: 100%;
+}
+.CommentSectionContainer h1 {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.AddCommentContainer {
+  width: 90%;
+  margin: 0 auto;
+}
+.AddCommentContainer label {
+  font-size: 25px;
+}
+.AddCommentContainerCentered {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #dee3ea;
+}
+.AddComment {
+  width: 60%;
+  height: 90px;
+  font-size: 20px;
+  margin: 10px 0px;
+  padding: 5px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.AddCommentbutton {
+  font-size: 18px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 4px 8px;
+  background-color: rgb(58, 163, 224);
+  color: white;
+  cursor: pointer;
+}
+.CommentSection {
+  background-color: white;
+  width: 90%;
+  margin: 0 auto;
+  height: 650px;
+  overflow-x: scroll;
+}
+
+@media only screen and (max-width: 900px) {
+  .FullPost {
+    height: auto;
+    grid-template-columns: none;
+    grid-template-rows: 40px auto 500px;
+    overflow-x: scroll;
+  }
+  .PostSection {
+    margin-top: 0px;
+  }
+  .AddComment {
+    width: 90%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  .AddCommentContainer {
+    width: 99%;
+  }
+  .CommentSection {
+    height: auto;
+    width: 99%;
+    height: 100%;
+    overflow-x: unset;
+  }
+}

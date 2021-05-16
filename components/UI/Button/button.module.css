@@ -1,0 +1,22 @@
+.Button {
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  padding: 4px 8px;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.Button:hover,
+.Button:active {
+  transform: translateY(-1.5px);
+
+}
+.Button svg {
+  margin-bottom: -2px;
+}
+@media only screen and (max-width: 600px) {
+  .Button {
+    font-size: 17px;
+  }
+}

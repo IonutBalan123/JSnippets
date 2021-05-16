@@ -1,0 +1,11 @@
+.GoBack {
+  width: 100%;
+  height: auto;
+}
+.GoBack a {
+  font-size: 30px;
+  color: white;
+}
+.GoBack a:visited {
+  color: white;
+}

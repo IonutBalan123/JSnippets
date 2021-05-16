@@ -1,0 +1,70 @@
+.ProfileContainer {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 40px 200px 70px auto;
+  background-color: #1f2430;
+  color: #dee3ea;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.InnerProfileContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Profile {
+  height: 220px;
+  width: 350px;
+  background-color: #728294;
+  color: #eaeff5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.ProfileImageName {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.Profile svg {
+  color: black;
+  font-size: 50px;
+}
+
+.ProfileImage {
+  border-radius: 10px;
+  width: 100px;
+}
+.GithubLink {
+  width: 50px;
+}
+.NoPosts {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  margin: 0 auto;
+  justify-content: center;
+}
+.NoPosts svg {
+  margin-bottom: -4px;
+}
+.PostsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+  justify-items: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .PostsContainer {
+    grid-template-columns: repeat(auto-fit, minmax(99%, 1fr));
+  }
+  .NoPosts {
+    width: 90%;
+  }
+}

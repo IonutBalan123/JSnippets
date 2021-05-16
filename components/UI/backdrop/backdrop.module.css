@@ -1,0 +1,10 @@
+.Backdrop {
+  /* position: sticky;
+    position: -webkit-sticky; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index:200;
+  background-color: rgba(0, 0, 0, 0.6);
+}

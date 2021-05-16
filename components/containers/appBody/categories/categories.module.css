@@ -1,0 +1,122 @@
+.Categories {
+  width: 100%;
+  height: 92vh;
+  position: sticky;
+  top: 10vh;
+  background-color: #1f2430;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  color: #dee3ea;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.CategoriesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Categories h1 {
+  margin-bottom: -10px;
+}
+.Categories ul {
+  margin-right: 20px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.Categories ul li {
+  font-size: 30px;
+  padding: 2px 4px;
+  margin: 30px 0px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+.Categories ul li a {
+  text-decoration: none;
+  color: #dee3ea;
+}
+.Categories ul li a:visited {
+  text-decoration: none;
+  color: #dee3ea;
+}
+.All {
+  border-bottom: 2px solid #dee3ea;
+}
+.Javascript {
+  border-bottom: 2px solid #f7df1e;
+}
+.React {
+  border-bottom: 2px solid #61dbfb;
+}
+.JQuery {
+  border-bottom: 2.6px solid#0266A7;
+}
+.Vue {
+  border-bottom: 2px solid#3FB27F;
+}
+.Javascript:hover {
+  color: black;
+}
+.exTbJS {
+  background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, #1f2430 50%, #f7df1e 50%);
+  transition: background-position 0.1s ease-in-out, color 0.1s ease-in-out;
+}
+.exTbJS:hover,
+.exTbJS:focus {
+  background-position: 0 100%;
+}
+.exTbAll {
+  background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, #1f2430 50%, white 50%);
+  transition: background-position 0.1s ease-in-out, color 0.1s ease-in-out;
+}
+.exTbAll:hover,
+.exTbAll:focus {
+  background-position: 0 100%;
+}
+
+.exTbR {
+  background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, #1f2430 50%, #61dbfb 50%);
+  transition: background-position 0.1s ease-in-out, color 0.1s ease-in-out;
+}
+.exTbR:hover,
+.exTbR:focus {
+  background-position: 0 100%;
+}
+
+.exTbJ {
+  background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, #1f2430 50%, #0266a7 50%);
+  transition: background-position 0.1s ease-in-out, color 0.1s ease-in-out;
+}
+.exTbJ:hover,
+.exTbJ:focus {
+  background-position: 0 100%;
+}
+
+.exTbV {
+  background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, #1f2430 50%, #3fb27f 50%);
+  transition: background-position 0.1s ease-in-out, color 0.1s ease-in-out;
+}
+.exTbV:hover,
+.exTbV:focus {
+  background-position: 0 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .Categories {
+    display: flex;
+    justify-content: center;
+  }
+  .Categories ul li:first-of-type {
+    margin-top: 10px;
+  }
+  .Categories h1 {
+    margin-bottom: 5px;
+  }
+}

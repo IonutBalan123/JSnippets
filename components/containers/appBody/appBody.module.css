@@ -1,0 +1,13 @@
+.AppBody {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #1f2430;
+  display: grid;
+  grid-column-gap: 10px;
+  grid-template-columns: 25% auto 25%;
+}
+.AppBodyPhone {
+  margin: 0 auto;
+  height: auto;
+  background-color: #1f2430;
+}

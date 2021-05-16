@@ -1,0 +1,29 @@
+.LogoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #dee3ea;
+}
+.LogoContainer img {
+  width: 85px;
+}
+
+.LogoContainer h1 {
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .LogoContainer img {
+    display: none;
+  }
+  .LogoContainer h1 {
+    margin: 0px;
+    font-size: 30px;
+  }
+  .LogoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}

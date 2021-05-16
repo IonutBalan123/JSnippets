@@ -1,0 +1,43 @@
+.RightSide {
+  width: 65%;
+  height: 92vh;
+  position: sticky;
+  top: 10vh;
+  background-color: #1f2430;
+
+  color: white;
+  text-align: center;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.RandomFact {
+  width: 240px;
+  margin-top: 30px;
+  display: table;
+  padding: 3px 10px;
+  padding-bottom: 15px;
+  background-color: #505664;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+.RandomFact h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.RandomFact p {
+  font-size: 23px;
+}
+.RightSide button {
+  margin-top: 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+  background-color: rgb(58, 163, 224);
+  color: white;
+}
+.InnerRightSide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

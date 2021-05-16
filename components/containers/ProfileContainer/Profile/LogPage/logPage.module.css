@@ -1,0 +1,60 @@
+.LogPage {
+  width: 100%;
+  height: 100vh;
+  background-color: #1f2430;
+  color: #dee3ea;
+  display: grid;
+  grid-template-rows: 50px auto;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.LogContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Log {
+  height: 250px;
+  width: 550px;
+  border-radius: 10px;
+  margin-top: -200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: rgb(114, 130, 148);
+  text-align: center;
+}
+.Log h1 {
+  font-size: 43px;
+}
+.Log p {
+  font-size: 19.5px;
+}
+.Log button {
+  width: 70%;
+  background-color: rgb(58, 163, 224);
+  color: #eaeff5;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 23px;
+  padding: 10px 0px;
+  margin: 0 auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.Log button svg {
+  margin-bottom: -4px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Log {
+    width: 95%;
+    height: 220px;
+    margin-top: -300px;
+  }
+  .Log h1 {
+    font-size: 30px;
+  }
+  .Log p {
+    font-size: 17px;
+  }
+}

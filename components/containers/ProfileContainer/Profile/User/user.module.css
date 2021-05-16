@@ -1,0 +1,100 @@
+.Profile {
+  height: 100%;
+  width: 650px;
+  margin: 0 auto;
+  background-color: #728294;
+  color: #eaeff5;
+}
+.ProfileImage {
+  border-radius: 10px;
+  width: 150px;
+}
+.ProfileImageName {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.ProfileImageContainer {
+  justify-self: center;
+  align-self: center;
+}
+.Profile h1 {
+  cursor: pointer;
+}
+.Profile h1:hover,
+.Profile h1:active {
+  border-bottom: 2px solid white;
+}
+.Profile svg {
+  color: black;
+  font-size: 25px;
+  margin-top: 15px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.Profile svg:hover,
+.Profile svg:active {
+  transform: scale(1.1);
+}
+
+.LinkDiv {
+  display: grid;
+  grid-template-rows: 30% auto;
+}
+.LinkDivLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.LinkDivButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.LinkDiv a {
+  color: #eaeff5;
+  text-decoration: none;
+}
+.LinkDiv a:visited {
+  color: #eaeff5;
+}
+
+.GithubLink {
+  width: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Profile {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #728294;
+    color: #eaeff5;
+  }
+  .ProfileImageName {
+    grid-template-columns: 40% 60%;
+  }
+  .ProfileImage {
+    width: 120px;
+    height: 120px;
+  }
+  .Profile h1 {
+    font-size: 30px;
+  }
+  .LinkDivLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Profile svg {
+    font-size: 22px;
+  }
+  .LinkDivLinks a {
+    font-size: 24px;
+  }
+  .LinkDivButtons {
+    align-items: center;
+  }
+}

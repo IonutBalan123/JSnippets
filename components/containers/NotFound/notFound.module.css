@@ -1,0 +1,22 @@
+.NotFound {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2430;
+  color: #dee3ea;
+  font-size: 30px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.NotFound h1 {
+  margin-top: 0px;
+  margin-left: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+  .NotFound h1 {
+    margin-left: 40px;
+    font-size: 25px;
+  }
+}

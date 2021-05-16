@@ -1,0 +1,92 @@
+.UserSection {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.UserSection img {
+  width: 40px;
+  border-radius: 10px;
+}
+
+.User {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  font-size: 25px;
+  border: 2px dotted black;
+  cursor: pointer;
+}
+
+.UserName {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 600;
+}
+.UserName p {
+  margin-left: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  line-height: 22px;
+}
+
+.UserName p:hover,
+.UserName p:active {
+  border-bottom: 2px solid black;
+}
+
+.FullPost {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.UserSection svg:last-of-type {
+  fill: orange;
+}
+
+.SavedButton {
+  background-color: transparent;
+  font-size: 35px;
+  cursor: pointer;
+  margin-top: 6px;
+  transition: 0.2s ease;
+}
+
+.SavedButton:hover {
+  transform: scale(1.1);
+}
+
+.SavedButton:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .User {
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+  }
+
+  .UserName p {
+    margin-left: 5px;
+    font-size: 17px;
+  }
+
+  .FullPost button {
+    font-size: 15px;
+  }
+
+  .UserSection svg {
+    font-size: 35px;
+  }
+
+  .UserSection img {
+    width: 35px;
+  }
+}

@@ -1,0 +1,27 @@
+.Logged {
+  width: auto;
+  height: auto;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.Logged img {
+  width: 60px;
+  border-radius: 10px;
+  transition: 0.2s ease;
+}
+.Logged img:hover,
+.Logged img:active {
+  transform: scale(1.2);
+  border-radius: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .Logged img {
+    width: 45px;
+  }
+}

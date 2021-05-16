@@ -1,0 +1,45 @@
+.NavbarContainer {
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  min-height: 8vh;
+  display: flex;
+  align-items: center;
+  background-color: #2e3542;
+  position: fixed;
+  top: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.Navbar {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  color: #dee3ea;
+  font-family: "Recursive", sans-serif;
+}
+.NavbarPhone {
+  color: #dee3ea;
+  width: 97%;
+  height: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.HamburgerContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.HamburgerContainer button {
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .Navbar {
+    width: 97%;
+  }
+}

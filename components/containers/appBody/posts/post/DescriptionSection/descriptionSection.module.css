@@ -1,0 +1,28 @@
+.Description {
+  width: 95%;
+  margin: 0 auto;
+  display: table;
+  word-break: break-word;
+  -ms-word-break: break-word;
+}
+.Description p {
+  margin: 0px;
+  padding-top: 0;
+  padding-bottom: 10px;
+}
+.Description h2 {
+  font-weight: normal;
+  margin: 5px 0px;
+}
+.DescriptionContent {
+  max-width: 95%;
+}
+.DescriptionTitle {
+  margin-top: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .Description p {
+  font-size:15px;
+}
+
+}

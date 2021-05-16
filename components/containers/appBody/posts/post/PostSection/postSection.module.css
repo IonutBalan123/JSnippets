@@ -1,0 +1,30 @@
+.PostSection {
+  width: 95%;
+  margin: 0 auto;
+  height: auto;
+}
+.CopyButton {
+  float: right;
+  border: none;
+  font-size: 15px;
+  padding: 4px 6px;
+  margin-top: 5px;
+  border-radius: 4px;
+  background-color: lightgrey;
+  color: black;
+  cursor: pointer;
+  margin-top: -30px;
+  margin-right: 5px;
+  transition: 0.2s ease;
+}
+.CopyButton:hover {
+  transform: translateY(-1.5px);
+}
+.CopyButton img {
+  width: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .CopyButton {
+    left: 72%;
+  }
+}

@@ -1,0 +1,49 @@
+.Posts {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.AddPost {
+  width: 700px;
+  height: 40px;
+  background-color: #2e3542;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 96.4%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.AddPost svg {
+  background-color: #2e3542;
+  border-radius: 50%;
+  margin-top: -40px;
+  font-size: 50px;
+  fill: #3aa3e0;
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+.AddPost svg:hover {
+  /* transform: translateX(-50%); */
+  transform: scale(1.05);
+}
+.EmptyDivDown {
+  margin-top: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .AddPost {
+    width: 100%;
+    top: 95.3%;
+  }
+  .EmptyDivDown {
+    margin-top: 15px;
+  }
+  .AddPost svg {
+    font-size: 45px;
+  }
+}

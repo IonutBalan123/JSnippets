@@ -1,0 +1,27 @@
+.Logged {
+  background-color: rgb(58, 163, 224);
+  font-size: 20px;
+  padding: 2px 9px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.2s ease;
+  color: white;
+}
+.Logged svg {
+  margin-top: 3px;
+  font-size: 25px;
+  margin-left: 2px;
+}
+.Logged:hover,
+.Logged:active {
+  transform: scale(1.1);
+  border-radius: 3px;
+}
+@media only screen and (max-width: 600px) {
+  .Logged {
+    font-size: 17px;
+  }
+}

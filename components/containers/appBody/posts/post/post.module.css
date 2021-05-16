@@ -1,0 +1,27 @@
+.Post {
+  width: 500px;
+  height: auto;
+  background-color: rgb(114, 130, 148);
+  display: grid;
+  grid-template-rows: 55px auto auto;
+  border-radius: 5px;
+  font-family: "Noto Sans KR", sans-serif;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .Post {
+    width: 99%;
+    height: auto;
+    grid-template-rows: 50px auto auto;
+  }
+
+  .PostLink {
+    border: none;
+    font-size: 17px;
+    padding: 5px;
+  }
+  .Description p {
+    font-size: 16px;
+  }
+}
